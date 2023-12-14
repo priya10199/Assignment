@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy Index') {
             steps {
-                sh 'echo hello all >> /var/www/html/index.html'
+                sh 'echo hello all >> /var/www/html/index.html..'
             }
         }
     }
